@@ -3,13 +3,13 @@
 	<groupId>com.shipping_details</groupId>
 	<artifactId>information_getter</artifactId>
 	<packaging>jar</packaging>
-	<version>1.0.1</version>
+	<version>1.0.2-SNAPSHOT</version>
 	<name>information_getter</name>
 	<url>http://maven.apache.org</url>
 	<scm>
 	  <connection>scm:git:git@github.com:subramanya/DataGetter.git</connection>
 	  <url>scm:git:git@github.com: com:subramanya/DataGetter.git</url>
-    <tag>information_getter-1.0.1</tag>
+    <tag>HEAD</tag>
   </scm>
 
 	<build>
