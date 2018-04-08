@@ -34,7 +34,8 @@ public class DataGetter {
 		FileOutputStream fos = null;
 		BufferedWriter writer = null;
 		try {
-			fos = new FileOutputStream("/Users/subramanya.vl/Documents/jsoup/sample_out"
+			//fos = new FileOutputStream("/Users/subramanya.vl/Documents/jsoup/sample_out"
+			fos = new FileOutputStream("/Users/slaks1/Documents/jsoup/sample_out"
 					+ Calendar.getInstance().getTimeInMillis() + ".csv");
 			writer = new BufferedWriter(new OutputStreamWriter(fos));
 			writer.write(sb.toString());
@@ -61,7 +62,8 @@ public class DataGetter {
 		BufferedReader reader = null;
 		String line = null;
 		try {
-			fis = new FileInputStream("/Users/subramanya.vl/Documents/jsoup/sample.csv");
+			//fis = new FileInputStream("/Users/subramanya.vl/Documents/jsoup/sample.csv");
+			fis = new FileInputStream("/Users/slaks1/Documents/jsoup/sample.csv");
 			reader = new BufferedReader(new InputStreamReader(fis));
 			while ((line = reader.readLine()) != null) {
 				if (line != null) {
